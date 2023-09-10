@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Sitemap: https://create.wa-link.in/sitemap.xml
+Host: https://create.wa-link.in
