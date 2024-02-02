@@ -26,24 +26,39 @@ function App() {
                                 <span className="bg-accent px-2 text-white font-bold rounded">Free</span> WhatsApp Links<br/>
                                 with custom messages
                             </p>
-                            <div className="flex mt-4 mx-auto md:mx-0">
+                            <div className="flex flex-col mt-4 mx-auto md:mx-0">
                                 <a href="#create-link-form" onClick={() => {
                                     window.gtag("event", "create_link_cta");
                                 }}>
-                                <div className="bg-accent text-xl font-semibold text-white px-4 py-2 rounded
+                                    <div className="bg-accent text-xl font-semibold text-white px-4 py-2 rounded
                                  hover:cursor-pointer hover:opacity-90">
-                                    Create Link Now
-                                </div>
+                                        Create Link Now
+                                    </div>
                                 </a>
+                                <a className="mt-2" href="https://forms.gle/PomSCoCEAge1gjPL6" target="_blank" onClick={() => {
+                                    window.gtag("event", "create_link_cta");
+                                }}>
+                                    <div className="border-2 bg-black text-white text-xl font-semibold px-4 py-2 rounded
+                                 hover:cursor-pointer hover:opacity-90">
+                                        Get Pro
+                                    </div>
+                                </a>
+                                <div className="text-xs mt-2 ml-2 text-left">
+                                    <div>With Pro mode you get</div>
+                                    <div>· Branded Links (wa-link.in/YourBrand)</div>
+                                    <div>· Click Analytics</div>
+                                    <div>· Email Support</div>
+                                    <div>· Update Link Info(phone, url and custom message)</div>
+                                </div>
                             </div>
                         </div>
                         <a href="#create-link-form">
-                        <div className="h-[50vh] w-full md:h-[70vh] md:w-[70vh] mx-auto md:w-1/2 flex">
-                            <img alt="Create WhatsApp Links"
-                                 src="./images/wa-logo.svg"
-                                 className="flex-grow m-auto hover:scale-105 transform transition
+                            <div className="h-[50vh] w-full md:h-[70vh] md:w-[70vh] mx-auto md:w-1/2 flex">
+                                <img alt="Create WhatsApp Links"
+                                     src="./images/wa-logo.svg"
+                                     className="flex-grow m-auto hover:scale-105 transform transition
                                  h-[200px] w-[200px] md:h-[400px] md:w-[400px]"/>
-                        </div>
+                            </div>
                         </a>
                     </div>
                 </div>
