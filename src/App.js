@@ -35,21 +35,6 @@ function App() {
                                         Create Link Now
                                     </div>
                                 </a>
-                                <a className="mt-2" href="https://forms.gle/PomSCoCEAge1gjPL6" target="_blank" onClick={() => {
-                                    window.gtag("event", "create_link_cta");
-                                }}>
-                                    <div className="border-2 bg-black text-white text-xl font-semibold px-4 py-2 rounded
-                                 hover:cursor-pointer hover:opacity-90">
-                                        Get Pro
-                                    </div>
-                                </a>
-                                <div className="text-xs mt-2 ml-2 text-left">
-                                    <div>With Pro mode you get</div>
-                                    <div>· Branded Links (wa-link.in/YourBrand)</div>
-                                    <div>· Click Analytics</div>
-                                    <div>· Email Support</div>
-                                    <div>· Update Link Info(phone, url and custom message)</div>
-                                </div>
                             </div>
                         </div>
                         <a href="#create-link-form">
